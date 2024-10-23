@@ -17,7 +17,33 @@ print(need("food"))
 print(need("warmth"))
 print(need("tent"))
 
-print("But you only have room to carry 3 things! What 3 things would you like to take?")
+print("Oh no! you only have enough room to buy one thing!")
+print("Pick on thing to take.")
+
+n = int(input('pick one thing to take:'))
+
+for i in range(0,n):
+
+    print('Enter 1 for water bottle\n')
+
+    print('Enter 2 for shoes\n')
+
+    print('Enter 3 for food\n')
+
+    print('Enter 3 for warmth\n')
+
+    print('Enter 3 for tent\n')
+
+    choice = int(input('Enter your choice:'))
+
+    if (choice == 1):
+       
+ else
+    print('Invalid choice') 
+
+
+    
+       
 
 
 
