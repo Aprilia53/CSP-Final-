@@ -1,4 +1,6 @@
 #setting up story for game and ask a name - everyone
+game = 1
+
 print("Welcome to our game! What is your name?")
 name = input()
 print("Hello, " +name+ "! you are on a mission to climb the tallest mountain in your small town! first youll need supplise.")
@@ -59,30 +61,25 @@ print("What do you want to do now?")
 print("1. keep going up the mountain")
 print("2. take a break to eat")
 print("3. go into the cave")
-picked = input("Pick a thing to do: ")
+picked = int(input("Pick a thing to do: "))
 if picked == 1:
     print("You picked keep going up")
 elif picked == 3:
     print("You picked go into the cave")
 else:
     print("Game Over! Your food is stale.")
+    game = 1
 
 
 #User runs in with yeti (yeti gives options to get food, shelter or a (better) map-Franco-(function)
-def scnd(choice):
-    return f"{choice},"
-
 if picked == 1.:
-    yetiplace = "up the mountain"
-elif picked == 3.:
-    yetiplace = "through the forest"
+    yetiplace = ("You go up the mountain and keep climbing")
 else:
-    yetiplace = "The game is still over"
-print("you walk", yetiplace)
-print("When, GRAHHHHHHHHHHHHHH I'mm the yeti, do you want 1.food, 2.shelter, or a 3.TREASURE mapU")
-print(scnd("1."))
-print(scnd("2."))
-print(scnd("3."))
+    yetiplace = ("You go into a cave in the mountain")
+def scndchoice(choice)
+    return f"{choice},"
+print("Grah im the yeti, choose between 1. food, 2. shelter, 3. ")
+    
 #user makes it to the top and plants flag (it you wanna stay, eat something, plant a flag) - Tara (loop)
 print("Yay!! You made it to the top!")
 print("1. plant a flag , 2. stay at the top , 3. eat a snack. ")
@@ -99,4 +96,21 @@ else:
 
 #User goes back down (deciding wheather they want to live there, go back down, or go on another adventure)- (everyone)
 print("After a while, you get bored and decide to do something else.")
-print("Would you like to, a. live there forever, b. go straight home, c. go on another adventure")
+print("Would you like to,\n a. live there forever,\n b. go straight home,\n c. go on another adventure\n") 
+
+
+course = int(input("What do you want to do? (only enter number):"))
+if course == 1:
+    print("Yay! You get to live here for the rest of your life!")
+elif course == 2:
+    print("Wow!You get to go home!")
+elif course == 3:
+    print("Haza! Good luck on your next adventure!")
+else:
+    print("Invalid option")
+
+print("Good Job completing our game! Hope you had fun! :3")
+
+
+
+    
