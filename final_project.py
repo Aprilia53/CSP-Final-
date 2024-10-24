@@ -53,6 +53,7 @@ for i in range(0,n):
     
 
 #ask user where they would like to go next  - (stop and eat, go into cave, keep going) Lola  (conditional)
+print("You travel for a couple of days, and...") 
 print("You made it half way up!")
 print("What do you want to do now?")
 print("1. keep going up the mountain")
@@ -98,4 +99,4 @@ else:
 
 #User goes back down (deciding wheather they want to live there, go back down, or go on another adventure)- (everyone)
 print("After a while, you get bored and decide to do something else.")
-print("Would you like to, a. live there forever, b. go straight home")
+print("Would you like to, a. live there forever, b. go straight home, c. go on another adventure")
