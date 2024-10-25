@@ -76,9 +76,28 @@ if picked == 1.:
     yetiplace = ("You go up the mountain and keep climbing")
 else:
     yetiplace = ("You go into a cave in the mountain")
-def scndchoice(choice)
-    return f"{choice},"
-print("Grah im the yeti, choose between 1. food, 2. shelter, 3. ")
+
+print("GRAHHHHHH Im the yeti what") 
+
+def whatToDo(get):
+    return f"do you ant {get},"
+
+print(whatToDo("Food from the yeti, 1"))
+print(whatToDo("The yeti gives you shelter and blankets,2"))
+print(whatToDo("The yeti gives you a more detailed map,3"))
+
+
+course = int(input("What do you want to do? (only enter number):"))
+if course == 1:
+    print("Yay! Got food from the Yeti!")
+elif course == 2:
+    print("Wow! The yeti gave you a good place to sleep!")
+elif course == 3:
+    print("Haza! The yeti gave you a better map!")
+else:
+    print("Invalid option")
+
+print("You take a look at the map, then...")
     
 #user makes it to the top and plants flag (it you wanna stay, eat something, plant a flag) - Tara (loop)
 print("Yay!! You made it to the top!")
@@ -89,14 +108,14 @@ if course == 1:
 elif course == 2:
     print("You stay at the top, enjoying the gorgeous view!")
 elif course == 3:
-    print("You grab a slice of cheese, but oopsies, it's moldy and you die. boo hoo")
+    print("You grab a slice of cheese")
 else:
     print("You chill for a while on the montain, yay. Your mother would be so proud of you.")
     
 
 #User goes back down (deciding wheather they want to live there, go back down, or go on another adventure)- (everyone)
 print("After a while, you get bored and decide to do something else.")
-print("Would you like to,\n a. live there forever,\n b. go straight home,\n c. go on another adventure\n") 
+print("Would you like to,\n 1. live there forever,\n 2. go straight home,\n 3. go on another adventure\n") 
 
 
 course = int(input("What do you want to do? (only enter number):"))
