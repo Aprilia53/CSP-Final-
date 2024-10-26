@@ -19,8 +19,6 @@ print(need("food"))
 print(need("warmth"))
 print(need("tent"))
 
-print("Oh no! you only have enough room to take one thing!") 
-print("Pick on thing to take.")
 
 n = int(input('How many things would you like to take?:'))
 
